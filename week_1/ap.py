@@ -1,12 +1,10 @@
-#A program that determines the arithmetic progression of sequences
+#Program that creates geometric progression series
 #Date : 20/02/2024
 #Name: Wayne Kareigi
 
-def func(a,n,d):
-    return a+(n-1)*d
+a = int(input("Enter the first term : "))
+n = int(input("Enter the number of terms : "))
+d = int(input("Enter the common difference : "))
 
-a = 1
-d = int(input())
-for i in range (1,11):
-    n = i
-    print(func(a,n,d),end = " ")
+nth_term = a +(n-1)* d
+print("The nth term of the ap is : ",nth_term)

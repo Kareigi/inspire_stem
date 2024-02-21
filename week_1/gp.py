@@ -2,11 +2,11 @@
 #Date : 20/02/2024
 #Name: Wayne Kareigi
 
-a = 1
-d = int(input())
-for k in range (1,11):
-    n = k
-    m = n -1
-    u = d**m
-    y = [(a*u)]
-    print(set(y),end =", ")
+a = int(input("Enter the first term : "))
+r = float(input("Enter the common ratio of the gp : "))
+n = int(input("Enter the number of terms : "))
+
+y = (n-1)
+nth_term = a * (r**y)
+
+print("The n_th term of the gp is ",nth_term)
