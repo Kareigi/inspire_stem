@@ -14,19 +14,19 @@ total_earning = (salary + bonus)
 
 #Show employee details
 print("INITIAL EMPLOYEE DETAILS;")
-print("Employee name :",f_name + s_name)
+print("Employee name :",f_name , s_name)
 print("Employee age :", age)
 print("Employee salary :", salary)
 print("Employee bonus :", bonus)
 print("Employee total earning : ",total_earning)
 
 #salary increment
-salary_increase_percentage = 0.3
-newSalary = (salary * salary_increase_percentage) + salary
+salary_percentage_change = float(input("Enter the percentage change : "))
+newSalary = (salary * salary_percentage_change) + salary
 
 #deceasing bonus
-decrease_bonus_amount = 5000
-newBonus = (bonus - decrease_bonus_amount)
+bonus_change= float(input("Enter the bonus change : ") )
+newBonus = (bonus - bonus_change)
 
 totalEarning = (newSalary + newBonus)
 
