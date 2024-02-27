@@ -44,6 +44,29 @@ print(fruit.replace('o','y'))
 subject = "physical,sciences"
 print(subject.split(","))
 
+#printing strings
 age = 30
 height = 1.75
 print("I am {0}years old and {1}metres tall ". format(age,height))
+
+#printing strings(formating)
+activity = "dancing"
+print("My hobby is %s" %(activity))
+
+#printing float
+height = 1.233456
+print("My height is %5.4f"%(height))
+name = "Wayne kareigi"
+print(len(name)) #len = length
+
+#printing strings
+print(f"My full name is {name}")
+
+#printing an integer
+age= 32
+print("my age is %d"%(age))
+
+
+school = "Engineering"
+course = "Electrical"
+print("I am studying {course} in the school of {school} ".format(course='Medicine' , school = 'Human sciences'))

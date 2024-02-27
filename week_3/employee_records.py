@@ -13,6 +13,7 @@ bonus = float(input("Enter employee bonus :"))
 total_earning = (salary + bonus)
 
 #Show employee details
+print("\t")
 print("INITIAL EMPLOYEE DETAILS;")
 print("Employee name :",f_name , s_name)
 print("Employee age :", age)
@@ -39,6 +40,7 @@ new_bonus = bonus - bonus_change
 totalEarning= new_salary + new_bonus
 
 #Updated employee details
+print("\t")
 print("UPDATED EMPLOYEE DETAILS;")
 print("Employee name:", f_name , s_name)
 print("Employee age :",age)
