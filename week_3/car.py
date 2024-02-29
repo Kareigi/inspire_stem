@@ -7,7 +7,7 @@ fav_car = {"make":"Rolls-Royce Cullinan ", "colour":"Blue","engine":"V12","body 
            "luxury SUV", "interior":"leather"}
 print(fav_car)
 
-friends_car = fav_car.copy
+friends_car = fav_car.copy()
 print(friends_car)
 
 for key,values in fav_car.items():

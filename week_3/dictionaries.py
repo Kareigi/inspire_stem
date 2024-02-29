@@ -19,7 +19,7 @@ print(my_laptop)
 del my_laptop["Colour"] #deleting items in a dictionary
 print(my_laptop)
 
-siz_laptop = my_laptop.copy
+siz_laptop = my_laptop.copy()
 print(siz_laptop)
 
 for key,value in my_laptop.items():
