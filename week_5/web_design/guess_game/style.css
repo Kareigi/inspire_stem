@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color:blue;
+}
+input[type="text"]{
+    padding:8px;
+    font-size: 16px;
+}
+button{
+    padding:8px;
+    font-size: 16px;
+    background-color:rgb(99,99,224);
+    color:beige;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(28, 28, 74);
+}
